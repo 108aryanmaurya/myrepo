@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* background-color: black; */
+   
+    width: 50%;
+}
+.navlist{
+    width: 70%;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+  
+}
+ul li:hover{
+    color: gray;
+}
+.flex{
+    display: flex;
+}
+.align-content{
+    align-items: center;
+}
+.justify-content
+{
+    justify-content: center;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+border-radius: 80px;
+}
+.search{
+    width: 30%;justify-content: end;
+    padding-right: 70px;
+}
+.search input{
+    width:30%;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: none;
+    padding: 4px;
+    color: aliceblue;
+}
+.search button{
+    margin-left: 4px;
+    padding: 1px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+border-radius: 5px;
+padding: 3px 5px;
+}
+.container{
+    /* background-color: black; */
+    color: aliceblue;
+    height: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://cdn.pixabay.com/photo/2016/11/02/10/04/chicago-1791002__340.jpg');
+background-size:cover ;
+background-blend-mode: darken;
+}
+.xyz{
+
+
+    height: 90vh;
+}
+.box-main{
+    /* width: 79%;
+    margin: auto;
+    margin: auto; */
+     /* margin-top: 40px; */
+     padding: 70px;
+}
+.first-half{
+    color: aliceblue;
+     width: 43%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 30px;
+    /* flex-direction: column;
+   
+    /* height: 20%; */
+     /* margin:auto ;  */
+}
+.second-half  img{
+border-radius: 150px;
+width: 200px;
+}
+.second-half {
+   margin-left: 25px;
+
+}
+.container{
+    position: sticky;
+    top: 0;
+}
+.textbig{
+font-size: 35px;
+/* text-align: center; */
+}
+.textsmall{
+font-size: 19px;
+}
+.text-cont ,.alcen{
+    margin-bottom: 10px;
+}
+.button button{
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+.btn1,.btn2{
+    margin-left: 7px;
+}
+.section1{
+    width: 55%;
+    margin: auto;
+    padding-top: 60px ;
+    padding-bottom: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img img{
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+.img{
+    margin: 35px;
+}
+.flrev{
+    flex-direction: row-reverse;
+}
+.section2{
+    background-color: rgb(247, 243, 243);
+height: 100vh;
+}
+.section2{
+    padding-top: 5px;
+}
+.section2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2 .form{
+    width:80%;
+    margin: 5px auto;
+    /* background-color: red; */
+}
+.form .box{
+    width: 37%;
+    margin: auto;
+   
+}
+.box input{
+    width: 100%;
+    margin:15px 0;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 19px;
+    border: 2px solid black;
+}
+.submit{
+    width: 6%;
+    margin: auto;
+}
+.submit button{
+    padding: 8px 12px;
+    border: 2px solid gray;
+border-radius: 4px;
+font-weight:500;
+font-size: 15px;
+}
+.textbox textarea{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:103%;
+margin: 14px auto;
+border: 2px solid black;
+}
+.textbox{
+    width: 40%;
+margin: auto;
+}
+.footer{
+    text-align: center;
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color: aliceblue;
+}
+
+
+@media only screen and (max-width:834px)
+{
+    .navlist,ul {
+        flex-direction: column;
+    }
+    .navlist img{
+        margin-top: 92px;
+    }
+    .navlist ul li{
+background-color: aqua;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-right: 60px;
+margin-top: 50px;
+    }
+}
+
